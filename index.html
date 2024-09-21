@@ -9,16 +9,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>Text To Speech </h1><p>Kavi's  AI </p>
-        <textarea name="TTS" id="text-tak" cols="300" rows="100" placeholder="Enter Text.. Read By Kavi's Ai"></textarea>
+        <h1>Text To Speech </h1>
+        <textarea name="TTS" id="text-tak" cols="300" rows="100" placeholder="Enter Text..."></textarea>
         <button onclick="speek()">Click To Read</button>
     </div>
     <script>
         var take=new SpeechSynthesisUtterance();
-
         function  speek(){
             take.text= document.getElementById("text-tak").value;
-
             take.rate=1;
             take.volume=5;
             take.pitch=1;
