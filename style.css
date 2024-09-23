@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 .container{
     display: flex;
@@ -16,7 +15,6 @@
     /* margin-top: 100px; */
     text-shadow: 5px 5px 10px rgb(177, 175, 175);
     color: white;
-
 }
 .container textarea{
    margin-top: 50px;
@@ -28,7 +26,6 @@
    color: white;
    font-size: 18px;
    font-weight: bold;
-    
 }
 .container button{
     margin-top: 50px;
